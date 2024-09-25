@@ -20,10 +20,10 @@ class ProductDetailScreen extends StatelessWidget {
             TCurvedEdgesWidget(
               child: Container(
                 color: dark ? TColors.darkerGrey : TColors.light,
-                child: const Stack(
+                child: Stack(
                   children: [
                     /// Main large image
-                    SizedBox(
+                    const SizedBox(
                         height: 400,
                         child: Padding(
                           padding:
@@ -34,9 +34,29 @@ class ProductDetailScreen extends StatelessWidget {
                         )),
 
                     /// Image slider
-                    TRoundedImage(
-                      width: 80 ,
-                      imageUrl: TImages.productImage3)
+                    Positioned(
+                      right: 0,
+                      bottom: 30,
+                      left: TSizes.defaultSpace,
+                      child: SizedBox(
+                        height: 70,
+                        child: ListView.separated(
+                          itemCount: 6,
+                          shrinkWrap: true,
+                          scrollDirection: Axis.horizontal,
+                          physics: const AlwaysScrollableScrollPhysics(),
+                          separatorBuilder: (_, __) => const SizedBox(
+                            width: TSizes.spaceBtwItems,
+                          ),
+                          itemBuilder: (_, index) => TRoundedImage(
+                              width: 70,
+                              backgroungColor: dark ? TColors.dark : TColors.white,
+                              boader: Border.all(color: TColors.primary),
+                              padding: const EdgeInsets.all(TSizes.sm),
+                              imageUrl: TImages.productImage3),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
