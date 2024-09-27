@@ -24,7 +24,7 @@ class TProductImageSlider extends StatelessWidget {
           children: [
             /// Main large image
             const SizedBox(
-                height: 400,
+                height: 300,
                 child: Padding(
                   padding: EdgeInsets.all(TSizes.productImageRadius * 2),
                   child: Center(
