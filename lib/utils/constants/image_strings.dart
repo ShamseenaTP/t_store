@@ -61,6 +61,13 @@ class TImages {
   static const String promoBanner4 = "assets/images/banners/promo_banner4.jpg";
 
 
+  // -- user reviews
+
+  static const String userReview1 = "assets/images/reviews/user1.jpeg";
+  static const String userReview2 = "assets/images/reviews/user2.jpeg";
+  static const String userReview3 = "assets/images/reviews/user3.png";
+
+
 // -- profile
 
   static const String user = "assets/images/user/user.png";

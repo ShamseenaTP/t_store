@@ -60,6 +60,7 @@ flutter:
     - assets/images/user/
     - assets/images/on_boarding_images/
     - assets/images/animations/
+    - assets/images/reviews/
     - assets/icons/catogories/
     - assets/images/banners/
     - assets/images/products/
