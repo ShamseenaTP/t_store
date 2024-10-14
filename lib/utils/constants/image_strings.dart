@@ -33,13 +33,13 @@ class TImages {
   static const String verifyIllustration =
       "assets/images/on_boarding_images/sammy-line-searching.gif";
 
-// -- catogory icons
+// -- category icons
 
   static const String sportIcon =
       "assets/images/animations/sammy-line-man-recieves-a-mail.png";
   static const String clothIcon =
-      "assets/icons/catogories/cloth_icon.png";
-  static const String shoeIcon = "assets/icons/catogories/icons8-shoes-64.png";
+      "assets/icons/categories/cloth_icon.png";
+  static const String shoeIcon = "assets/icons/categories/icons8-shoes-64.png";
   static const String cosmeticsIcon =
       "assets/images/on_boarding_images/sammy-line-searching.gif";
   static const String animalIcon =
@@ -66,6 +66,28 @@ class TImages {
   static const String userReview1 = "assets/images/reviews/user1.jpeg";
   static const String userReview2 = "assets/images/reviews/user2.jpeg";
   static const String userReview3 = "assets/images/reviews/user3.png";
+
+
+  // -- Payment Methods
+
+   static const String applePay =
+      "assets/icons/payment_methods/applePay.png";
+  static const String googlePay =
+      "assets/icons/payment_methods/googlePay.png";
+  static const String creditCard =
+      "assets/icons/payment_methods/creditCard.jpeg";
+  static const String masterCard =
+      "assets/icons/payment_methods/masterCard.jpeg";
+  static const String payPal =
+      "assets/icons/payment_methods/payPal.png";
+  static const String visa =
+      "assets/icons/payment_methods/visa.webp";
+  static const String payStack =
+      "assets/icons/payment_methods/payStack.png";
+  static const String payTm =
+      "assets/icons/payment_methods/payTm.png";
+      static const String successfulPaymentIcon =
+      "assets/icons/payment_methods/successPaymentIcon.webp";
 
 
 // -- profile

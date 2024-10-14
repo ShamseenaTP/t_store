@@ -3,8 +3,8 @@ import 'dart:core';
 
 class TPricingCalculator {
   static double calculateTotalPrice(double productPrice, String location) {
-    double taxrate = getTaxRateForLocation(location);
-    double taxAmount = productPrice * taxrate;
+    double taxRate = getTaxRateForLocation(location);
+    double taxAmount = productPrice * taxRate;
 
     double shippingCoast = getShippingCoast(location);
 

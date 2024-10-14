@@ -4,8 +4,8 @@ import 'package:t_store/common/widgets/custom_shapes/containers/search_container
 import 'package:t_store/common/widgets/layouts/grid_layout.dart';
 import 'package:t_store/common/widgets/products/product_cards/product_card_vertical.dart';
 import 'package:t_store/common/widgets/texts/section_heading.dart';
-import 'package:t_store/features/shop/screens/home/widgets/home_appbar.dart';
-import 'package:t_store/features/shop/screens/home/widgets/home_catogories.dart';
+import 'package:t_store/features/shop/screens/home/widgets/home_app_bar.dart';
+import 'package:t_store/features/shop/screens/home/widgets/home_categories.dart';
 import 'package:t_store/features/shop/screens/home/widgets/promo_slider.dart';
 import 'package:t_store/utils/constants/image_strings.dart';
 import 'package:t_store/utils/constants/sizes.dart';
@@ -37,22 +37,22 @@ class HomeScreen extends StatelessWidget {
                   height: TSizes.spaceBtwSections,
                 ),
 
-                /// Catogories--
+                /// Categories--
                 Padding(
                   padding: EdgeInsets.only(left: TSizes.defaultSpace),
                   child: Column(
                     children: [
                       /// Heading--
                       TSectionHeading(
-                        title: 'Popular Catogories',
+                        title: 'Popular Categories',
                         showActionButton: false,
                       ),
                       SizedBox(
                         height: TSizes.spaceBtwItems,
                       ),
 
-                      /// Catogories--
-                      THomeCatogories()
+                      /// Categories--
+                      THomeCategories()
                     ],
                   ),
                 ), 
