@@ -51,7 +51,7 @@ class TProductCardVertical extends StatelessWidget {
                     top: 12,
                     child: TRoundedContainer(
                       radius: TSizes.sm,
-                      bgColor: TColors.secondory.withOpacity(0.8),
+                      bgColor: TColors.secondary.withOpacity(0.8),
                       padding: const EdgeInsets.symmetric(
                           horizontal: TSizes.sm, vertical: TSizes.xs),
                       child: Text(

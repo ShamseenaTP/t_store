@@ -25,7 +25,7 @@ class TProductMetaData extends StatelessWidget {
             /// Sale Tag
             TRoundedContainer(
               radius: TSizes.sm,
-              bgColor: TColors.secondory.withOpacity(0.8),
+              bgColor: TColors.secondary.withOpacity(0.8),
               padding: const EdgeInsets.symmetric(
                   horizontal: TSizes.sm, vertical: TSizes.xs),
               child: Text(
