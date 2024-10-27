@@ -15,12 +15,12 @@ class THomeAppBar extends StatelessWidget {
       title: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(TTexts.homeAppbarTitle,
+          Text(TTexts.homeAppBarTitle,
               style: Theme.of(context)
                   .textTheme
                   .labelMedium!
                   .apply(color: TColors.grey)),
-          Text(TTexts.homeAppbarSubTitle,
+          Text(TTexts.homeAppBarSubTitle,
               style: Theme.of(context)
                   .textTheme
                   .headlineSmall!

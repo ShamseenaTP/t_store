@@ -6,8 +6,8 @@ import 'package:t_store/features/authentication/screens/signup/widgets/signup_fo
 import 'package:t_store/utils/constants/sizes.dart';
 import 'package:t_store/utils/constants/text_strings.dart';
 
-class SignupScreen extends StatelessWidget {
-  const SignupScreen({super.key});
+class SignUpScreen extends StatelessWidget {
+  const SignUpScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class SignupScreen extends StatelessWidget {
             children: [
               // Title
               Text(
-                TTexts.signupTitle,
+                TTexts.signUpTitle,
                 style: Theme.of(context).textTheme.headlineMedium,
               ),
               const SizedBox(
@@ -29,7 +29,7 @@ class SignupScreen extends StatelessWidget {
               ),
 
               //Form
-              const TSignupForm(),
+              const TSignUpForm(),
               const SizedBox(
                 height: TSizes.spaceBtwItems,
               ),

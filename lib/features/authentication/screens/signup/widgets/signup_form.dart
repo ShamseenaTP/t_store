@@ -6,8 +6,8 @@ import 'package:t_store/features/authentication/screens/signup/verify_email.dart
 import 'package:t_store/utils/constants/sizes.dart';
 import 'package:t_store/utils/constants/text_strings.dart';
 
-class TSignupForm extends StatelessWidget {
-  const TSignupForm({
+class TSignUpForm extends StatelessWidget {
+  const TSignUpForm({
     super.key,
   });
 
@@ -16,6 +16,7 @@ class TSignupForm extends StatelessWidget {
     return Form(
         child: Column(
       children: [
+        /// First and last name
         Row(
           children: [
             Expanded(
@@ -45,7 +46,7 @@ class TSignupForm extends StatelessWidget {
           height: TSizes.spaceBtwInputFields,
         ),
 
-        //User name
+        /// User name
         TextFormField(
           expands: false,
           decoration: InputDecoration(
@@ -56,7 +57,8 @@ class TSignupForm extends StatelessWidget {
         const SizedBox(
           height: TSizes.spaceBtwInputFields,
         ),
-        //Email
+
+        /// Email
         TextFormField(
           expands: false,
           decoration: InputDecoration(
@@ -67,7 +69,8 @@ class TSignupForm extends StatelessWidget {
         const SizedBox(
           height: TSizes.spaceBtwInputFields,
         ),
-        //Phone number
+
+        /// Phone number
         TextFormField(
           expands: false,
           decoration: InputDecoration(
@@ -78,7 +81,8 @@ class TSignupForm extends StatelessWidget {
         const SizedBox(
           height: TSizes.spaceBtwInputFields,
         ),
-        //Password
+
+        /// Password
         TextFormField(
           expands: false,
           decoration: InputDecoration(
@@ -90,12 +94,14 @@ class TSignupForm extends StatelessWidget {
         const SizedBox(
           height: TSizes.spaceBtwInputFields,
         ),
-        //Terms&Conditions Check box
+
+        /// Terms&Conditions Check box
         const TTermsAndConditionCheckbox(),
         const SizedBox(
           height: TSizes.spaceBtwSections,
         ),
-        //Sign Up Button
+
+        /// Sign Up Button
         SizedBox(
           width: double.infinity,
           child: ElevatedButton(
