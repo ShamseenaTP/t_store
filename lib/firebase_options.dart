@@ -9,7 +9,7 @@ import 'package:flutter/foundation.dart'
 /// Example:
 /// ```dart
 /// import 'firebase_options.dart';
-/// // ...
+/// ...
 /// await Firebase.initializeApp(
 ///   options: DefaultFirebaseOptions.currentPlatform,
 /// );
@@ -70,9 +70,10 @@ class DefaultFirebaseOptions {
     messagingSenderId: '580062490909',
     projectId: 't-store-554d6',
     storageBucket: 't-store-554d6.appspot.com',
-    androidClientId: '580062490909-j89jasb7i9nra90bdr1l59hav5ndqq03.apps.googleusercontent.com',
-    iosClientId: '580062490909-75i7796mkdlmh98t05avn771rvr539st.apps.googleusercontent.com',
+    androidClientId:
+        '580062490909-j89jasb7i9nra90bdr1l59hav5ndqq03.apps.googleusercontent.com',
+    iosClientId:
+        '580062490909-75i7796mkdlmh98t05avn771rvr539st.apps.googleusercontent.com',
     iosBundleId: 'com.example.firstProject',
   );
-
 }

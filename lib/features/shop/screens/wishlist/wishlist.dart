@@ -8,8 +8,8 @@ import 'package:t_store/common/widgets/products/product_cards/product_card_verti
 import 'package:t_store/features/shop/screens/home/home.dart';
 import 'package:t_store/utils/constants/sizes.dart';
 
-class FavouriteScreen extends StatelessWidget {
-  const FavouriteScreen({super.key});
+class FavoriteScreen extends StatelessWidget {
+  const FavoriteScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +31,9 @@ class FavouriteScreen extends StatelessWidget {
           padding: const EdgeInsets.all(TSizes.defaultSpace),
           child: Column(
             children: [
-              TGridLayout(itemCount: 4, itemBuilder: (_, index) => const TProductCardVertical( ))
+              TGridLayout(
+                  itemCount: 4,
+                  itemBuilder: (_, index) => const TProductCardVertical())
             ],
           ),
         ),

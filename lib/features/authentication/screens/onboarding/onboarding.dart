@@ -17,23 +17,23 @@ class OnBoardingScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          /// Horizontal scrollabe pages
+          /// Horizontal scrollable pages
           PageView(
             controller: controller.pageController,
             onPageChanged: controller.updatePageIndicator,
             children: const [
-              OnBoadingPage(
-                image: TImages.onBordingImage1,
+              OnBoardingPage(
+                image: TImages.onBoardingImage1,
                 title: TTexts.onBoardingTitle1,
                 subTitle: TTexts.onBoardingSubTitle1,
               ),
-              OnBoadingPage(
-                image: TImages.onBordingImage2,
+              OnBoardingPage(
+                image: TImages.onBoardingImage2,
                 title: TTexts.onBoardingTitle2,
                 subTitle: TTexts.onBoardingSubTitle2,
               ),
-              OnBoadingPage(
-                image: TImages.onBordingImage3,
+              OnBoardingPage(
+                image: TImages.onBoardingImage3,
                 title: TTexts.onBoardingTitle3,
                 subTitle: TTexts.onBoardingSubTitle3,
               ),
@@ -53,7 +53,3 @@ class OnBoardingScreen extends StatelessWidget {
     );
   }
 }
-
-
-
-

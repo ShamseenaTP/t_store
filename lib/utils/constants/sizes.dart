@@ -1,4 +1,3 @@
-
 class TSizes {
   // padding and margin sizes
   static const double xs = 4.0;
@@ -20,8 +19,8 @@ class TSizes {
 
   // button sizes
   static const double buttonHeight = 18.0;
-  static const double buttonRadious = 12.0;
-  static const double buttonwidth = 120.0;
+  static const double buttonRadius = 12.0;
+  static const double buttonWidth = 120.0;
   static const double buttonElevation = 4.0;
 
   // app bar height
@@ -35,10 +34,10 @@ class TSizes {
   static const double spaceBtwItems = 16.0;
   static const double spaceBtwSections = 32.0;
 
-// border radious
-  static const double borderRadiousSm = 4.0;
-  static const double borderRadiousMd = 8.0;
-  static const double borderRadiousLg = 12.0;
+// border radius
+  static const double borderRadiusSm = 4.0;
+  static const double borderRadiusMd = 8.0;
+  static const double borderRadiusLg = 12.0;
 
   // divider height
   static const double dividerHeight = 1.0;
@@ -49,7 +48,7 @@ class TSizes {
   static const double productItemHeight = 160.0;
 
   // input field
-  static const double inputFieldradius = 12.0;
+  static const double inputFieldRadius = 12.0;
   static const double spaceBtwInputFields = 16.0;
 
   // card sizes

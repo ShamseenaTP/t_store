@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:t_store/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:t_store/bindings/general_bindings.dart';
 import 'package:t_store/utils/constants/colors.dart';
 import 'package:t_store/utils/theme/theme.dart';
 
@@ -10,12 +10,21 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
-      darkTheme:TAppTheme.darkTheme,
+      darkTheme: TAppTheme.darkTheme,
+      initialBinding: GeneralBindings(),
 
-      /// show loader or circular progress indicator meanwhile authentication repository is deciding to show relevant screen. 
-      home:  Scaffold(backgroundColor: TColors.primary, body: const Center(child: CircularProgressIndicator(color: Colors.white,),),),
+      /// show loader or circular progress indicator meanwhile authentication repository is deciding to show relevant screen.
+      home: Scaffold(
+        backgroundColor: TColors.primary,
+        body: const Center(
+          child: CircularProgressIndicator(
+            color: Colors.white,
+          ),
+        ),
+      ),
     );
   }
 }

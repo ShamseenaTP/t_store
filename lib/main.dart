@@ -16,13 +16,13 @@ Future<void> main() async {
   await GetStorage.init();
 
   /// await splash until other items load
-  
+
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
- 
 
   /// initialize firebase and authentication repository
 
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform).then((FirebaseApp value)=> Get.put(AuthenticationRepository()));
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform)
+      .then((FirebaseApp value) => Get.put(AuthenticationRepository()));
 
   // Load all the material design / themes / localizations / bindings
 

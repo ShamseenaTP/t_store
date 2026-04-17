@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:t_store/utils/constants/sizes.dart';
 import 'package:t_store/utils/helpers/helper_function.dart';
 
-class OnBoadingPage extends StatelessWidget {
-  const OnBoadingPage({
+class OnBoardingPage extends StatelessWidget {
+  const OnBoardingPage({
     super.key,
     required this.image,
     required this.title,

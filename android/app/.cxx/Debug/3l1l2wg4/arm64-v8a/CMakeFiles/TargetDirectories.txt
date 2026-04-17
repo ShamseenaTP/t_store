@@ -1,0 +1,2 @@
+C:/shamsi/t-store/android/app/.cxx/Debug/3l1l2wg4/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/shamsi/t-store/android/app/.cxx/Debug/3l1l2wg4/arm64-v8a/CMakeFiles/rebuild_cache.dir
